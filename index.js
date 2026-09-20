@@ -16,7 +16,7 @@ if (tenis && agua) {
 }
 
 // Verificar itens opcionais
-if ( caixaDeSom || celular || documento ) {
+if ( caixaDeSom || celular) {
   console.log("esta presente pelo menos 1 item opicional");
 } else {
   console.log("Você não tem nenhum item extra.");
