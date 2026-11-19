@@ -1,12 +1,9 @@
 
 //---Lista de equipamentos basicos para 5km na sua cidade---
-const tenis = true;
-const agua = true;
-const caixaDeSom = false;
-const celular = true;
-const documento = true;
-const dinheiro = false;
-const alimento = false;
+const prompt = require("prompt-sync")()
+
+let  intens = ["tenis","agua","caixaDeSom","celular","documento","dinheiro","alimento"]
+
 
 // Verificar se os itens básicos estão disponíveis
 if (tenis && agua) {
