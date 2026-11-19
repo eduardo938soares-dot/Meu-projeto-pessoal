@@ -2,10 +2,16 @@
 //---Lista de equipamentos basicos para 5km na sua cidade---
 const prompt = require("prompt-sync")()
 
-let  intens = ["tenis","agua","caixaDeSom","celular","documento","dinheiro","alimento"]
+let itens = ["tenis","caixaDeSom","celular","documento","dinheiro"]
+let comida = ["paçoca","banana"]
+let refresco =["agua"]
 
+do{ itens = prompt("está levando itens?")
+} while ("")
 
+  
 // Verificar se os itens básicos estão disponíveis
+
 if (tenis && agua) {
   console.log("Você já tem os itens básicos para a corrida!");
 } else {
